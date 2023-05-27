@@ -1,0 +1,14 @@
+{{#data}}
+<div class="box py-3 generalbox submissionaction">
+    <div class="singlebutton">
+        <a href="/mod/edwiserform/view.php?id={{{modid}}}&action=edit" class="btn btn-secondary">Edit submission</a>
+    </div>
+    <div class="singlebutton">
+        <a href="/local/edwiser_submission/remove.php?userid={{{userid}}}&formid={{{formid}}}&id={{{modid}}}&action=delete" class="btn btn-secondary">Remove submission</a>
+    </div>
+    <div class="singlebutton">
+        <a href="/local/edwiser_submission/draft.php?userid={{{userid}}}&formid={{{formid}}}&id={{{modid}}}&action=draft" class="btn btn-secondary">Save as draft</a>
+    </div>
+
+</div>
+{{/data}}

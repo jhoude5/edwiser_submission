@@ -1,0 +1,32 @@
+.submissionstatusdraft {
+    background-color: #efefcf;
+}
+.efb-modal {
+    display: none !important;
+}
+
+.path-mod-edwiserform .form-submit button,
+.edwiserform-container .form-submit button {
+    float: left !important;
+    margin-top: 4rem !important;
+}
+
+.view-fullpage-label {
+    display: none !important;
+
+}
+.comment-area .fd {
+    font-size: 16px !important;
+    display: flex;
+    justify-content: end;
+}
+.comment-area .fd a,
+.comment-area .fd span {
+    padding: 5px;
+}
+.comment-message {
+    font-size: 15px !important;
+}
+.comment-message-meta {
+    display: flex;
+}

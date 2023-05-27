@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<XMLDB PATH="local/edwiser_submission/db" VERSION="2022021100" COMMENT="XMLDB file for Moodle local/edwisersubmission" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../lib/xmldb/xmldb.xsd">
+    <TABLES>
+
+        <TABLE NAME="efb_submissionstatus" COMMENT="This table has the default templates definition">
+            <FIELDS>
+                <FIELD NAME="id" TYPE="int" LENGTH="10" NOTNULL="true" SEQUENCE="true"/>
+                <FIELD NAME="userid" TYPE="int" LENGTH="10" NOTNULL="false" SEQUENCE="false" COMMENT="user id who submitted the form"/>
+                <FIELD NAME="formid" TYPE="int" LENGTH="10" NOTNULL="false" SEQUENCE="false" COMMENT="form id."/>
+                <FIELD NAME="modid" TYPE="int" LENGTH="10" NOTNULL="false" SEQUENCE="false" COMMENT="module id."/>
+                <FIELD NAME="status" TYPE="char" LENGTH="40" NOTNULL="false" SEQUENCE="false" COMMENT="Submission status"/>
+                <FIELD NAME="submission" TYPE="char" LENGTH="40" NOTNULL="false" SEQUENCE="false" COMMENT="Submission status"/>
+            </FIELDS>
+            <KEYS>
+                <KEY NAME="primary" TYPE="primary" FIELDS="id" COMMENT="The unique id for form submission status"/>
+
+            </KEYS>
+        </TABLE>
+    </TABLES>
+</XMLDB>
